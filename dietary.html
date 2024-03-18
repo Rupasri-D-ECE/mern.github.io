@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project2</title>
+    <link rel="icon" href="random.png" type="image/x-icon">
+
+<style>
+    html{
+        font-size:22px;
+    }
+    body{
+        background-image:url(https://wallpaperaccess.com/full/1462457.jpg);
+        color:whitesmoke;
+        background-size: cover;
+    }
+    .container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden;
+  
+}
+
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover; /* This ensures the image covers the entire container */
+}
+    .sobi1{
+        margin: 20px auto;
+  max-width: 600px;
+  background: url(https://tse4.mm.bing.net/th?id=OIP.HZDxRd3tTYJC4i1UH_IUgAHaFg&pid=Api&P=0&h=180);
+  background-size: cover;
+  background-color:#f1e9e9;
+  color:#0e0e0e;
+  padding-left: 40px;
+border-radius:20px ;
+box-shadow: 0 0 15px #f0eceb;
+    }
+    .sobi1 hr{
+    max-width:550px;
+}
+.sobi1 button{
+    background-color: rgb(40,11,227);
+    background-size: 0%;
+    max-width: 170px;
+    padding-left: 250px;
+    padding-right: 300px;
+
+}
+.center-text {
+    text-align: center;
+}
+.custom-font{
+    font-family:Comic Sans MS (cursive);
+    font-size:20px;
+}
+
+</style>
+</head>
+<body>
+    <div class="sobi1"> 
+        <br>
+        <hr>
+        <h1 class="center-text">Generate recipie-Step 2 of 3</h1>
+        <hr>
+        <h3>Optional</h3>
+        <h2>Dietary and health considerations</h2>
+        <h3>Do you have any dietary restrictions?(optional)</h3>
+        <input type="text" placeholder="Any Dietary Restrictions" style="width: 300px; height:40px; font-size:16px">
+        <hr>
+        <h3>Do you have any health considerations?(Optional)</h3>
+        <input type="text" placeholder="Add Health Restrictions" style="width: 300px; height:40px; font-size:16px">
+        <hr>
+        <a href="nextpage.html"><button type="Submit" id="nextPageButton" onclick="alert('button Clicked!')"><h3>Generate</h3></button></a>
+    </div>
+</body>
+</html>

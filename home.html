@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Suggestion System</title>
+ <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url(https://wallpaperaccess.com/full/1892345.jpg);
+  background-size:cover;
+    
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #a6c1e5d9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #2b2424;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+.preference {
+  background-color: #f0f8ff;
+}
+
+.diet {
+  background-color: #ffe0f0;
+}
+
+.ingredients {
+  background-color: #e0ffe0;
+}
+
+ </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Find Your Perfect Recipe</h1>
+    <h4>Let us help you discover delicious dishes based on your preferences!</h4>
+    <div class="buttons">
+      <a href="userpref.html"><button class="preference">Tell us your preferences</button></a>
+      <a href="dietary.html"><button class="diet">Choose your dietary needs</button></a>
+      <a href="incredient.html"><button class="ingredients">Cook with what you have</button></a>
+    </div>
+  </div>
+</body>
+</html>
